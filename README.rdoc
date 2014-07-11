@@ -1,28 +1,6 @@
-== README
+Rails application for website for Girls Engineering Change.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Girls Engineering Change is a Durham, NC-based non-profit, started by Christine Schindler (Duke 2015).
+The organization aims at lowering the gender gap in STEM fields by providing middle school girls engineering opportunities and mentorship.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+All files copyright Chris Dieckhaus, 2014.
