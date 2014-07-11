@@ -1,3 +1,28 @@
 // Place all the styles related to the photos controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.front{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background-color: #ffffff; 
+}
+
+.front a:link{
+    opacity: 1;
+}
+
+.front a:hover{
+    opacity: .73;
+}
+
+.front img {
+    max-width: 33%;
+    height: 240px;
+}
+
+.pic {
+    display: inline-block;
+    margin:0;
+}
