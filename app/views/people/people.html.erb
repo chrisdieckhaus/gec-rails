@@ -1,2 +1,25 @@
-<h1>People#people</h1>
-<p>Find me in app/views/people/people.html.erb</p>
+
+<% @people.each do |person| %>
+  <div class="container">
+    <div class="photo">
+      <%= image_tag person[:photo], class: "photo" %>
+    </div>
+    <div class="text">
+      <div class="titletext">
+        <div id="colorblock">
+          <p class="titletext">
+            <%= "#{person[:name]}  |  #{person[:pos]}" %>
+          </p>
+        </div>
+      </div>
+      <div class="persontext">
+        <div id="colorblock">
+          <p class="persontext">
+              <%= person[:bio] %>
+          </p>
+        </div>
+      </div>
+    </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+<%end%>

@@ -1,3 +1,69 @@
 // Place all the styles related to the people controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.photo{
+    width: 22.8%;
+    float: left;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.text{
+    width: 77.2%;
+    float: left;
+}
+
+.titletext{
+    width: 100%;
+}
+
+.titletext div{
+    text-align: center;
+    background-color: #4a6bc4;
+}
+
+.titletext p{
+    width: 90%;
+    margin:0;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Roboto-light;
+    color: white;
+
+    line-height: 150%;
+}
+
+.persontext{
+    width: 100%;  
+}
+
+.persontext div{
+    text-align: center;
+    background-color: #829ad6;
+}
+
+.persontext p{
+    width: 90%;
+    margin:0;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Roboto-light;
+    color: white;
+    font-size: 17px;
+    text-indent:50px;
+    line-height: 145%;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
