@@ -1,0 +1,121 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+@font-face{
+    font-family: Roboto;
+    src: url(/assets/Roboto-Thin.ttf);
+}
+@font-face{
+    font-family: Roboto-light;
+    src: url(/assets/Roboto-Light.ttf);
+}
+
+h1 {
+    font-family: Roboto, Avantgarde, sans-serif;
+    font-size: 40pt;
+    text-align: center;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 10px;
+    padding-top:15px;
+}
+
+h1 a:link {
+    text-decoration: none;
+}
+
+.c1{
+    color: #4a6bc4
+}
+
+.c2 {
+    color: #7999f2
+}
+
+.nav{
+    list-style:none;
+    font-family: Roboto-light, Avantgarde, sans-serif;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    text-align:center;
+    background-color: #050b56;
+    opacity: .865;
+    padding-bottom: 0px;
+}
+.nav li {
+    display:inline;
+}
+.nav a { 
+    display:inline-block;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+}
+
+.nav a:link {
+    text-decoration: none;
+}
+
+.nav a:visited {
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: #7999f2
+}
+
+.navcon{
+    list-style:none;
+    font-family: Roboto-light;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding:0;
+    text-align:center;
+    background-color: #050b56;
+    opacity: .865;
+    padding-bottom: 0px;
+}
+.navcon li {
+    display:inline;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+}
+.navcon a { 
+    display:inline-block;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+.navcon a:link {
+    text-decoration: none;
+}
+
+.navcon a:visited {
+    text-decoration: none;
+}
+
+.navcon a:hover{
+    background-color: #7999f2
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Girls Engineering Change</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<h1 data-scrollreveal = "enter down after .45s">
+    <a href="/">
+    <span class="c1">girls </span><span class="c2">engineering </span><span class="c1">change</span>
+    </a>
+</h1>
+
+<div data-scrollreveal = "enter right after .45s"> 
+<ul class="nav">
+    <li><%= link_to "home", "/" %></li>
+    <li><%= link_to "our mission", "/about" %></li>
+    <li><%= link_to "photos", "/photos" %></li>
+    <li><%= link_to "who we are", "/people" %></li>
+    <li><%= link_to "gec in the news", "/news" %></li>
+    <li><%= link_to "contact", "/contact" %></li>
+</ul>
+</div>
+
+<%= yield %>
+
+<div data-scrollreveal = "enter right after .45s"> 
+<ul class="navcon">
+    <li>contact us:</li>
+    <li>
+        <%= link_to "facebook", "https://www.facebook.com/pages/Girls-Engineering-Change/500986659983924?fref=ts"%>
+    </li>
+    <li>
+        <%= link_to "email", "mailto:girlsengineeringchange@gmail.com"%>
+    </li>
+    <li>
+      website design by <%= link_to "Chris Dieckhaus", "mailto:christopherdieckhaus@gmail.com"%>
+    </li>
+</ul>
+</div>
+</body>
+</html>

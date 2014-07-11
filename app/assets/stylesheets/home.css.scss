@@ -1,0 +1,98 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.picdiv{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic{
+    width:100%;
+    text-align:center;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.idea{
+    margin-left:auto;
+    margin-right:auto;
+    width: 75%;
+    padding-top:35px;
+}
+
+.idea div{
+    text-align: center;
+    background-color: #4a6bc4;
+}
+
+.idea p{
+    width: 80%;
+    margin:0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Roboto;
+    font-size: 40px;
+    color: white;
+    text-indent:20px;
+    line-height: 100%;
+}
+
+.oneliner{
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    padding-bottom: 10px;
+    font-family: Roboto;
+}
+
+.oneliner div{
+    text-align: center;
+    background-color: white;
+}
+
+.oneliner p{
+    width: 80%;
+    margin:0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #050b56;
+    text-indent:20px;
+    line-height: 200%;
+}
+
+.maintext{
+    margin-left:auto;
+    margin-right:auto;
+    width: 75%;
+}
+
+.maintext div{
+    text-align: center;
+    background-color: #4a6bc4;
+    opacity: 1; 
+}
+
+.maintext p{
+    width: 85%;
+    margin:0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: Roboto-light;
+    color: white;
+    text-indent:20px;
+    line-height: 200%;
+}
