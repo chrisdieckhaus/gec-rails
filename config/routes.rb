@@ -13,6 +13,7 @@ Gec::Application.routes.draw do
   
   controller :photos do
     get "/photos", :action => :photos
+    get "/photos/:photo_number", :action => :show
   end
   
   controller :people do
