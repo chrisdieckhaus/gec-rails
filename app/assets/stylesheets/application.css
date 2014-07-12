@@ -46,10 +46,28 @@ h1 a:link {
     color: #7999f2
 }
 
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.logo img{
+    margin-left:auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.nav-div{
+    padding:0;
+    margin: 0;
+}
 .nav{
     list-style:none;
     font-family: Roboto-light, Avantgarde, sans-serif;
     width: 80%;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     padding:0;
