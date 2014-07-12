@@ -1,3 +1,97 @@
 // Place all the styles related to the news controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.news-front{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+}
+
+img {
+    width:32.5%;
+    vertical-align: middle;
+}
+
+.news-pic {
+    display: inline-block;
+    margin:0;
+}
+
+
+.news-text{
+    width: 100%;
+    float: left;
+}
+
+.news-titletext{
+    width: 99.9%;
+}
+
+.news-titletext div{
+    text-align: center;
+    background-color: #4a6bc4;
+    height: 60px;
+}
+
+.news-titletext a{
+    width: 80%;
+    margin:0;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto-light;
+    color: white;
+    text-indent:50px;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.news-titletext p{
+    width: 80%;
+    margin:0;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto-light;
+    color: white;
+    text-indent:50px;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.news-titletext a:hover{
+    text-decoration: underline;
+}
+
+.news-persontext{
+    width: 99.9%;  
+}
+
+.news-persontext div{
+    text-align: center;
+    background-color: #829ad6;
+}
+
+.news-persontext p{
+    width: 90%;
+    margin:0;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Roboto-light;
+    color: white;
+    text-indent:50px;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.news-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

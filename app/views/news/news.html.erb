@@ -1,2 +1,35 @@
-<h1>News#news</h1>
-<p>Find me in app/views/news/news.html.erb</p>
+<div class="news-front">
+    <a href="http://www.huffingtonpost.com/chelsea-clinton/getting-to-the-stem-of-ge_b_3002058.html">
+        <img class="news-pic" src="/assets/huffpo.jpg">
+    </a>
+    <a href="https://www.youtube.com/watch?v=gntsK6Rud2M">
+        <img class="news-pic" src="/assets/cgi.jpg">
+    </a>
+    <a href="http://www.usnews.com/education/high-schools/articles/2012/05/31/college-mentors-key-to-prospective-female-stem-majors">
+        <img class="news-pic" src="/assets/usnews.jpg">
+    </a>       
+</div>
+
+<% @articles.each do |article| %>
+<div class="news-container">
+    <div class="news-text">
+        <div class="news-titletext">
+            <div>
+                <p class="news-titletext"><em><%= link_to article[:title], article[:src]%></em>
+                  <br>
+                <%= article[:site] %></p>
+            </div>
+        </div>
+        <div class="news-persontext">
+            <div>
+                <p class="news-persontext">
+                    <%= article[:blurb] %>
+                </p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+</div>
+<% end %>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
