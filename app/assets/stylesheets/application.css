@@ -14,7 +14,7 @@
 
 @font-face{
     font-family: 'Roboto';
-    src: url('Roboto-Thin.ttf');
+    src: url(asset-path('Roboto-Thin.ttf'));
 }
 @font-face{
     font-family: 'Roboto-light';
