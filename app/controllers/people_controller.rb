@@ -2,7 +2,7 @@ class PeopleController < ApplicationController
   def people
     @people = [{name: "Christine Schindler",
                  pos: "President",
-                 photo: "/assets/christine12.jpg",
+                 photo: "christine12.jpg",
                  bio: "Christine Schindler is a senior from Fairfax, VA, studying Biomedical Engineering and minoring in
                     Global Health. She founded GEC in 2012 in order to decrease the stereotypes that prevent many girls
                     from entering STEM fields. In addition to GEC, Christine is pursuing research in women's global health
