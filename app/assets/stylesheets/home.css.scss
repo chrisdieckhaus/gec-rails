@@ -3,12 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @font-face{
     font-family: 'Roboto-light';
-    src: url('/assets/Roboto-Light.ttf');
+    src: font-url('/assets/Roboto-Light.ttf');
 }
 
 @font-face{
     font-family: 'Roboto';
-    src: url('/assets/Roboto-Thin.ttf');
+    src: font-url('/assets/Roboto-Thin.ttf');
 }
 .picdiv{
     width: 80%;
