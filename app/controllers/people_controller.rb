@@ -17,7 +17,7 @@ class PeopleController < ApplicationController
                     Scholar. He loves the outdoors, spicy food, snow, traveling, and dogs. After Duke, he hopes to attend graduate school,
                     and eventually teach at the collegiate level."},
                {name: "Ashley Reid",
-                 pos: "Cheif of Outreach",
+                 pos: "Chief of Outreach",
                  photo: "ashley12.jpg",
                  bio: "Ashley Reid is a junior Biomedical Engineering major at Duke from Charlotte, North Carolina. She first became
                     interested in Girls Engineering Change as a high school student visiting Duke, where she met Christine
