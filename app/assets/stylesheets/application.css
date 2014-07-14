@@ -13,11 +13,11 @@
  */
 @font-face{
     font-family: Roboto;
-    src: url(/assets/Roboto-Thin.ttf);
+    src: font-url(/assets/Roboto-Thin.ttf);
 }
 @font-face{
     font-family: Roboto-light;
-    src: url(/assets/Roboto-Light.ttf);
+    src: font-url(/assets/Roboto-Light.ttf);
 }
 
 body{
