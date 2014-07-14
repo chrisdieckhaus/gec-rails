@@ -2,7 +2,7 @@
 <% @people.each do |person| %>
   <div class="container">
     <div class="photo">
-      <img class="photo" src="<%= asset_path person[:photo]%>">
+      <img class="photo" src="<%= asset_path "#{person[:photo]}"%>">
       <%= image_tag person[:photo], class: "photo" %>
     </div>
     <div class="text">
