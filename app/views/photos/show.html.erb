@@ -1,6 +1,7 @@
 <div class="big-front">
     <a href="/home/chris/Desktop/GEC/photos.html">
-        <img class="big-pic" src="/assets/photos<%=@photo_num%>.jpg">
+        <img class="big-pic" src="<%= asset_path 'photos#{@photo_num}.jpg' %>">
+        <%= image_tag "photos#{@photo_num}", class: "big-pic" %>
     </a>     
 </div>
 
