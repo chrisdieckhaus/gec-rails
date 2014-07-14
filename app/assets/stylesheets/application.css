@@ -12,9 +12,14 @@
  *= require_tree .
  */
 
-@include font-face($font-family, $file-path, $weight: normal, $style: normal, $asset-pipeline: false);
-@include font-face(Roboto, 'Roboto-Thin', $asset-pipeline: true);
-
+@font-face{
+    font-family: 'Roboto';
+    src: url('Roboto-Thin.ttf');
+}
+@font-face{
+    font-family: 'Roboto-light';
+    src: url('Roboto-Light.ttf');
+}
 
 body{
     margin: 0;

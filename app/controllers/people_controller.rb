@@ -55,7 +55,7 @@ class PeopleController < ApplicationController
                  bio: "Aaron Newman is a sophomore studying Electrical and Energy Engineering from Raleigh, NC. He is responsible for the civil and environmental
                     engineering aspect of the GEC curriculum. He looks forward to exploring project ideas that are not electronics based, in order to provide
                     a greater range of lessons.  Outside of school, he is an involved member of the entrepreneurial
-                    student living group The Cube. Aaron enjoys hiking and the outdoors."},
+                    student living group The Cube and HackDuke hackathons. Aaron also enjoys hiking and the outdoors."},
                {name: "David Robertson",
                  pos: "Chief Marketing Officer",
                  photo: "david12.jpg",
