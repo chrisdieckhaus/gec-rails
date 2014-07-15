@@ -14,23 +14,15 @@
 
 @font-face{
     font-family: 'Roboto';
-    src: url(asset_path('Roboto-Thin.ttf'));
+    src: font-url(asset_path('Roboto-Thin.ttf'));
 }
 @font-face{
     font-family: 'Roboto-light';
-    src: url(asset_path('Roboto-Light.ttf'));
+    src: font-url(asset_path('Roboto-Light.ttf'));
 }
 
 body{
     margin: 0;
-    @font-face{
-    font-family: 'Roboto';
-    src: url(asset_path('Roboto-Thin.ttf'));
-}
-@font-face{
-    font-family: 'Roboto-light';
-    src: url(asset_path('Roboto-Light.ttf'));
-}
 }
 
 h1 {
