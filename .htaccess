@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^girlsengineeringchange\.org
+RewriteRule (.*) http://www.girlsengineeringchange.org/$1 [R=301,L]
