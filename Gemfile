@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.5'
 
+gem 'haml'
 # Use pg as the database for Active Record
 group :development do
   gem 'sqlite3'
