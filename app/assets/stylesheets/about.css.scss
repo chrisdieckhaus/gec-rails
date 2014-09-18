@@ -1,39 +1,28 @@
-// Place all the styles related to the about controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-p{font-family: Roboto-light;}
-
 .titletext{
-    margin-left:auto;
-    margin-right:auto;
-    width: 80%;
+    width: 75%;
+    margin: 15px auto 0 auto;
     text-align: center;
+    background-color: #4a6bc4;
+    border-radius: 3px;
+}
+
+.titletext p{
+    width: 80%;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Glegoo', serif;
+    font-weight: 700;
+    color: white;
+    line-height: 150%;
 }
 
 .toptext{
     margin-left:auto;
     margin-right:auto;
-    width: 80%;
+    width: 100%;
     text-align: center;
-}
-
-.titletext div{
-    background-color: #4a6bc4;   
-}
-
-.titletext p{
-    width: 80%;
-    margin:0;
-    font-size: 24px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: Roboto-light;
-    color: white;
-    text-indent:50px;
-    line-height: 150%;
 }
 
 .toptext div{
@@ -41,17 +30,18 @@ p{font-family: Roboto-light;}
 }
 
 .toptext p{
-    width: 90%;
+    width: 75%;
     margin:0;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
-    font-family: Roboto-light;
+    font-family: 'Varela Round', sans-serif;
     color: #050b56;
     text-indent:50px;
-    line-height: 150%;
+    font-size: 18px;
+    line-height: 170%;
 }
 
 p.values-top{

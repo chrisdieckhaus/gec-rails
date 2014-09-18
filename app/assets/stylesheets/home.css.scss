@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .picdiv{
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,8 +20,7 @@
 .idea{
     margin-left:auto;
     margin-right:auto;
-    width: 80%;
-    padding-top:35px;
+    width: 100%;
 }
 
 .idea div{
@@ -35,8 +34,8 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Roboto;
     font-size: 40px;
     color: white;
@@ -63,8 +62,8 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-size: 30px;
     color: #050b56;
     text-indent:20px;
@@ -74,7 +73,7 @@
 .maintext{
     margin-left:auto;
     margin-right:auto;
-    width: 80%;
+    width: 100%;
 }
 
 .maintext div{
@@ -89,10 +88,11 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Roboto-light;
     color: white;
     text-indent:20px;
     line-height: 200%;
+    font-size: larger;
 }

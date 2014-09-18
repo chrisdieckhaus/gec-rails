@@ -3,12 +3,20 @@
 <head>
   <title>Girls Engineering Change</title>
   <%= favicon_link_tag asset_path 'favicon.ico' %>
+   <%= javascript_include_tag  "vendor/jquery" %>
+  <%= stylesheet_link_tag "foundation" %>
+  <%= javascript_include_tag  "foundation.min" %>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+ 
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
+<div class="body-box">
 <div class="logo">
   <a href="/">
     <img src="<%= asset_path 'logofull-blue.png' %>">
@@ -41,6 +49,7 @@
       website design by <%= link_to "Chris Dieckhaus", "mailto:christopherdieckhaus@gmail.com"%>
     </li>
 </ul>
+</div>
 </div>
 </body>
 </html>
