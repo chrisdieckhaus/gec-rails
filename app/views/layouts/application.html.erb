@@ -6,7 +6,7 @@
    <%= javascript_include_tag  "vendor/jquery" %>
   <%= stylesheet_link_tag "foundation" %>
   <%= javascript_include_tag  "foundation.min" %>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "application", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
  
   <%= csrf_meta_tags %>
@@ -36,7 +36,7 @@
 
 <%= yield %>
 
-<div data-scrollreveal = "enter right after .45s"> 
+<div> 
 <ul class="navcon">
     <li>contact us:</li>
     <li>

@@ -7,7 +7,7 @@
 .photo{
     width: 22.8%;
     float: left;
-    border-radius: 3px 0 0 3px;
+    border-radius: 4px 0 0 4px;
 }
 
 .photo img{
@@ -26,7 +26,7 @@
 .nametext div{
     text-align: center;
     background-color: #4a6bc4;
-    border-radius: 0 3px 0 0;
+    border-radius: 0 4px 0 0;
 }
 
 .nametext p{
@@ -37,7 +37,7 @@
     margin-right: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: Roboto-light;
+    font-family: 'Glegoo', serif;
     color: white;
 
     line-height: 150%;
@@ -50,7 +50,7 @@
 .persontext div{
     text-align: center;
     background-color: #829ad6;
-    border-radius: 0 0 3px 0;
+    border-radius: 0 0 4px 0;
 }
 
 .persontext p{
@@ -61,7 +61,7 @@
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: Roboto-light;
+    font-family: 'Varela Round', sans-serif;
     color: white;
     font-size: 17px;
     text-indent:50px;
