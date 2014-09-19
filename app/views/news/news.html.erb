@@ -1,4 +1,4 @@
-<div class="news-front">
+<div class="news-pic-div">
     <a href="http://www.huffingtonpost.com/chelsea-clinton/getting-to-the-stem-of-ge_b_3002058.html">
         <img class="news-pic" src="<%= asset_path 'huffpo.jpg' %>">
     </a>
@@ -11,25 +11,20 @@
 </div>
 
 <% @articles.each do |article| %>
-<div class="news-container">
-    <div class="news-text">
-        <div class="news-titletext">
-            <div>
-                <p class="news-titletext"><em><%= link_to article[:title], article[:src]%></em>
-                  <br>
-                <%= article[:site] %></p>
-            </div>
+<div class="row">
+    <div class="small-12 column">
+        <div class="article-title">
+            <p class="article-title"><em><%= link_to article[:title], article[:src]%></em>
+              <br>
+            <%= article[:site] %></p>
         </div>
-        <div class="news-persontext">
-            <div>
-                <p class="news-persontext">
-                    <%= article[:blurb] %>
-                </p>
-            </div>
+        <div class="article-blurb">
+            <p class="article-blurb">
+              <%= article[:blurb] %>
+            </p>
         </div>
     </div>
-    <br><br><br><br><br><br><br><br>
 </div>
 <% end %>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
