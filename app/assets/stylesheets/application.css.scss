@@ -21,6 +21,11 @@
     src: font-url(asset_path('Roboto-Light.ttf'));
 }
 
+@font-face{
+    font-family: 'Kelson';
+    src: font-url(asset_path('kelson/KelsonSansLight.otf'));
+}
+
 body{
     margin: 0;
     background: hsla(224, 51%, 55%, 0.5)
