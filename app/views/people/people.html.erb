@@ -1,3 +1,31 @@
+<%= stylesheet_link_tag "people" %>
+
+<% @people.each do |person| %>
+  <div class="row">
+    <div class="small-3 column">
+      <%= image_tag person[:photo]%>
+    </div>
+    <div class="small-9 column">
+      <div class="nametext">
+        <div id="colorblock">
+          <p class="nametext">
+            <%= "#{person[:name]}  |  #{person[:pos]}" %>
+          </p>
+        </div>
+      </div>
+      <div class="persontext">
+        <div id="colorblock">
+          <p class="persontext">
+              <%= person[:bio] %>
+          </p>
+        </div>
+      </div>
+    </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+<%end%>
+
+
 
 <% @people.each do |person| %>
   <div class="container">
