@@ -5,4 +5,8 @@ Website located at www.girlsengineeringchange.org
 Girls Engineering Change is a Durham, NC-based non-profit, started by Christine Schindler (Duke 2015).
 The organization aims at lowering the gender gap in STEM fields by providing middle school girls engineering opportunities and mentorship.
 
+To deploy:
+'rake assets:precompile'
+'git push heroku master'
+
 All files copyright Chris Dieckhaus, 2014.
