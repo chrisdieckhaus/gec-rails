@@ -1,83 +1,49 @@
+.row{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .small-3.column{
   padding-right: 0;
+  padding-left: 0;
 }
 
 .small-9.column{
   padding-left: 0;
+  padding-right: 0;
+  height: 250px;
+  background-color: #829ad6;
   max-height: 250px;
+  border-radius: 0 4px 4px 0;
+}
+
+.name{
+  height: 50px;
+  background-color: #4a6bc4;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Amaranth', serif;
+  color: white;
+  width: 100%;
+  border-radius: 0 4px 0 0;
+}
+
+.bio{
+  width: 90%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  text-indent:50px;
+  line-height: 145%;
 }
 
 .row img{
   border-radius: 4px 0 0 4px;
 }
-
-.container{
-    width: 90%;
-    margin: 10px auto 10px auto;
-    border-radius: 5px;
-}
-
-.photo{
-    width: 22.8%;
-    float: left;
-    border-radius: 4px 0 0 4px;
-}
-
-.photo img{
-    width: 100%;
-}
-
-.text{
-    width: 77.2%;
-    float: left;
-}
-
-.nametext{
-    width: 100%;
-}
-
-.nametext div{
-    text-align: center;
-    background-color: #4a6bc4;
-    border-radius: 0 4px 0 0;
-}
-
-.nametext p{
-    width: 90%;
-    margin:0;
-    font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Amaranth', serif;
-    color: white;
-
-    line-height: 150%;
-}
-
-.persontext{
-    width: 100%;  
-}
-
-.persontext div{
-    text-align: center;
-    background-color: #829ad6;
-    border-radius: 0 0 4px 0;
-}
-
-.persontext p{
-    width: 90%;
-    margin:0;
-    text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'PT Sans', sans-serif;
-    color: white;
-    font-size: 17px;
-    text-indent:50px;
-    line-height: 145%;
-}
-

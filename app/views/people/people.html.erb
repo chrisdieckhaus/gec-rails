@@ -6,48 +6,12 @@
       <%= image_tag person[:photo]%>
     </div>
     <div class="small-9 column">
-      <div class="nametext">
-        <div id="colorblock">
-          <p class="nametext">
-            <%= "#{person[:name]}  |  #{person[:pos]}" %>
-          </p>
-        </div>
+      <div class="name">
+        <%= "#{person[:name]}  |  #{person[:pos]}" %>
       </div>
-      <div class="persontext">
-        <div id="colorblock">
-          <p class="persontext">
-              <%= person[:bio] %>
-          </p>
-        </div>
+      <div class="bio">
+        <%= person[:bio] %>
       </div>
     </div>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  </div>
-<%end%>
-
-
-
-<% @people.each do |person| %>
-  <div class="container">
-    <div class="photo">
-      <%= image_tag person[:photo], class: "photo" %>
-    </div>
-    <div class="text">
-      <div class="nametext">
-        <div id="colorblock">
-          <p class="nametext">
-            <%= "#{person[:name]}  |  #{person[:pos]}" %>
-          </p>
-        </div>
-      </div>
-      <div class="persontext">
-        <div id="colorblock">
-          <p class="persontext">
-              <%= person[:bio] %>
-          </p>
-        </div>
-      </div>
-    </div>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   </div>
 <%end%>
