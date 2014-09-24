@@ -10,21 +10,26 @@
     </a>       
 </div>
 
-<% @articles.each do |article| %>
+<% (0...@articles.size).step(2) do |i| %>
 <div class="row">
-    <div class="small-12 column">
-        <div class="article-title">
-            <p class="article-title"><em><%= link_to article[:title], article[:src]%></em>
-              <br>
-            <%= article[:site] %></p>
-        </div>
-        <div class="article-blurb">
-            <p class="article-blurb">
-              <%= article[:blurb] %>
-            </p>
-        </div>
-    </div>
+  <div class="small-6 column">
+    <p class="article-title">
+     <em><%= link_to @articles[i][:title], @articles[i][:src]%></em>
+    </p>
+    <p class="article-blurb">
+      <%= @articles[i][:blurb] %>
+    </p>
+  </div>
+  <% if i+1 < @articles.size %>
+  <div class="small-6 column">
+    <p class="article-title">
+      <em><%= link_to @articles[i+1][:title], @articles[i+1][:src]%></em>
+    </p>
+    <p class="article-blurb">
+      <%= @articles[i+1][:blurb] %>
+    </p>
+  </div>
+  <% end %>
 </div>
 <% end %>
-
 
